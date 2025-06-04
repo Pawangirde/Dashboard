@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
           <nav className="p-2 space-y-2">
             <Link
               href="/component/home"
-              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 text-white-800 px-4 py-2 rounded"
+              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 hover:text-black text-white-800 px-4 py-2 rounded"
             >
               <FaHome />
               Home
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
 
             <Link
               href="/component/about"
-              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 text-white-800 px-4 py-2 rounded"
+              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 hover:text-black text-white-800 px-4 py-2 rounded"
             >
               <FaInfoCircle />
               About
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
 
             <Link
               href="/component/contact"
-              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 text-white-800 px-4 py-2 rounded"
+              className="flex items-center gap-2 bg-blue-500 hover:bg-blue-200 hover:text-black text-white-800 px-4 py-2 rounded"
             >
               <FaEnvelope />
               Contact
